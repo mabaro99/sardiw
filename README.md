@@ -1,5 +1,6 @@
 # Práctica de DIW
-Realizada por Pilar Alegre Ramos  
+
+Realizada por Manuel Baeza Romero  
 🥇
 
 ## HTML y CSS
@@ -7,4 +8,3 @@ Realizada por Pilar Alegre Ramos
 ## Despliegue en Netlify
 
 👀
-
