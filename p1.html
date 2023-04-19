@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            outline: 2px solid blue;
+            outline-offset: 2px;
+            width: 30vw;
+            height: auto;
+        }
+
+        .land, .port {
+            visibility: hidden;
+        }
+
+        @media (orientation: landscape) {
+            .land {
+                visibility: visible;
+            }
+        }
+        @media (orientation: portrait) {
+            .port {
+                visibility: visible;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="img1.jpeg" alt="imagen 1" class="land">
+    <img src="img2.jpeg" alt="imagen 2" class="port">
+</body>
+</html>
